@@ -1,0 +1,26 @@
+Failed case #1/34: (Wrong answer)
+
+Input:
+Add 0-1-2 event1
+Add 1-2-3 event2
+Find 0-1-2
+
+Del 0-1-2
+Print
+Del 1-2-3 event2
+Del 1-2-3 event2
+
+Your output:
+event1
+Event not found
+0000-01-02 event1
+0001-02-03 event2
+Deleted 1 events
+Deleted 0 events
+
+Correct output:
+event1
+Deleted 1 events
+0001-02-03 event2
+Deleted successfully
+Event not found
